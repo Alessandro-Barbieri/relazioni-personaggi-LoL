@@ -1,337 +1,489 @@
 digraph G {
-  edge [color = red];
-  Aatrox -> Tryndamere;
-  Akali -> Zed
-  Anivia -> Brand
-  Anivia -> Lissandra
-  Ashe -> Sejuani
-  Azir -> Xerath
-  Azir -> Renekton
-  Azir -> Cassiopeia
-  Brand -> Ryze
-  Brand -> Anivia
-  Brand -> Lissandra
-  Braum -> Lissandra
-  Caitlyn -> Jinx
-  Cassiopeia -> Nasus
-  Cassiopeia -> Sivir
-  Darius -> Katarina
-  Darius -> Draven
-  Darius -> Vladimir
-  Diana -> Leona
-  Draven -> Darius
-  Ekko -> Jinx
-  Ekko -> Caitlyn
-  Ekko -> Viktor
-  Ekko -> Jayce
-  Evelynn -> "Twisted Fate"
-  Fiora -> Jax
-  Fiora -> Lux
-  Fizz -> Nautilus
-  Gangplank -> "Miss Fortune"
-  Gangplank -> Swain
-  Gangplank ->Zed
-  Garen -> Katarina
-  Garen -> Swain
-  Garen -> Urgot
-  Heimerdinger -> Rumble
-  Irelia -> Singed
-  Irelia -> Syndra
-  "Jarvan IV" -> Swain
-  "Jarvan IV" -> Urgot
-  Jax -> Fiora
-  Jayce -> Viktor
-  Jinx -> Caitlyn
-  Jinx -> Vi
-  Kalista -> Cassiopeia
-  Kalista -> LeBlanc
-  Kalista -> Lissandra
-  Kalista -> Hecarim
-  Kalista -> Zed
-  Karma -> Syndra
-  Karthus -> Soraka
-  Kassadin -> Malzahar
-  Katarina -> Garen
-  Katarina -> Swain
-  Kayle -> Morgana
-  Kennen -> Zed
-  "Kha'Zix" -> Rengar
-  Leona -> Diana
-  Lissandra -> Brand
-  Lissandra -> Anivia
-  Lissandra -> Udyr
-  Lucian -> Thresh
-  Lux -> Fiora
-  Malzahar -> Kassadin
-  Maokai -> Zyra
-  "Master Yi" -> Singed
-  "Miss Fortune" -> Gangplank
-  Morgana -> Kayle
-  Nami -> Nautilus
-  Nasus -> Xerath
-  Nasus -> Renekton
-  Nasus -> Cassiopeia
-  Nautilus -> Fizz
-  Nautilus -> Nami
-  Nidalee -> Rengar
-  Orianna -> Viktor
-  Quinn -> Talon
-  Rammus -> Twitch
-  Renekton -> Nasus
-  Rengar -> "Kha'Zix"
-  Rengar -> Nidalee
-  Riven -> Singed
-  Riven -> Varus
-  Riven -> Yasuo
-  Rumble -> Heimerdinger
-  Rumble -> Teemo
-  Ryze -> Brand
-  Sejuani -> Ashe
-  Sejuani -> Tryndamere
-  Shen -> Zed
-  Singed -> Irelia
-  Singed -> Riven
-  Singed -> "Master Yi"
-  Sion -> "Jarvan IV"
-  Sion -> Galio
-  Sion -> Swain
-  Sivir -> Cassiopeia
-  Soraka -> Warwick
-  Soraka -> Karthus
-  Swain -> "Jarvan IV"
-  Swain -> Garen
-  Syndra -> Irelia
-  Syndra -> Karma
-  "Tahm Kench" -> Corki
-  "Tahm Kench" -> Gnar
-  "Tahm Kench" -> Heimerdinger
-  "Tahm Kench" -> Lulu
-  "Tahm Kench" -> Kennen
-  "Tahm Kench" -> Poppy
-  "Tahm Kench" -> Rumble
-  "Tahm Kench" -> Teemo
-  "Tahm Kench" -> Tristana
-  "Tahm Kench" -> Ziggs
-  "Tahm Kench" -> Fizz
-  "Tahm Kench" -> Quinn
-  Teemo -> Veigar
-  Teemo -> Rumble
-  Thresh -> Lucian
-  Trundle -> Ashe
-  Trundle -> Sejuani
-  Tryndamere -> Sejuani
-  Tryndamere -> Aatrox
-  "Twisted Fate" -> Evelynn
-  Twitch -> Rammus
-  Udyr -> Lissandra
-  Urgot -> "Jarvan IV"
-  Urgot -> Garen
-  Varus -> Riven
-  Vayne -> Vladimir
-  Vayne -> Warwick
-  Veigar -> Teemo
-  "Vel'Koz" -> Zilean
-  Vi -> Jinx
-  Viktor -> Jayce
-  Viktor -> Orianna
-  Vladimir -> Darius
-  Vladimir -> Vayne
-  Volibear -> Zilean
-  Warwick -> Soraka
-  Warwick -> Vayne
-  Xerath -> Nasus
-  Yasuo -> Riven
-  Zed -> Shen
-  Zed -> Akali
-  Zed -> Kennen
-  Zilean -> Volibear
-  Zyra -> Maokai
+  subgraph cluster_0 {
+    label = "Ionia";
+    Ahri;
+    Akali;
+    Karma;
+    "Master Yi";
+    Irelia;
+    Jax;
+    Karma;
+    Kennen;
+    "Lee Sin";
+    "Master Yi";
+    Shen;
+    Sona;
+    Soraka;
+    Syndra;
+    Udyr;
+    Varus;
+    Wukong;
+    Yasuo;
+    Zed;
+  }
+  subgraph cluster_1 {
+    label = "Bandle City";
+    Amumu;
+    Corki;
+    Heimerdinger;
+    Kennen;
+    Lulu;
+    Poppy;
+    Rumble;
+    Teemo;
+    Tristana;
+    Veigar;
+    Ziggs;
+  }
+  subgraph cluster_2 {
+    label = "Freljord";
+    Anivia;
+    Ashe;
+    Braum;
+    Gragas;
+    Lissandra;
+    Nunu;
+    Olaf;
+    Sejuani;
+    Trundle;
+    Tryndamere;
+    Udyr;
+    Volibear;
+  }
+  subgraph cluster_3 {
+    label = "Shurima";
+    Azir;
+    Cassiopeia;
+    Nasus;
+    Rammus;
+    Renekton;
+    Sivir;
+    Xerath;
+  }
+  subgraph cluster_4 {
+    label = "Zaun";
+    Blitzcrank;
+    "Dr. Mundo"
+    Ekko;
+    Jinx;
+    Singed;
+    Twitch;
+    Urgot;
+    Viktor;
+    Warwick;
+    Zac;
+  }
+  subgraph cluster_5 {
+    label = "Piltover";
+    Caitlyn;
+    Ezreal;
+    Jayce;
+    Orianna;
+    Vi;
+    Zilean;
+  }
+  subgraph cluster_6 {
+    label = "Noxus";
+    Cassiopeia;
+    Darius;
+    Draven;
+    Katarina;
+    LeBlanc;
+    Morgana;
+    Riven;
+    Sion;
+    Swain;
+    Talon;
+    Urgot;
+    Vladimir;
+  }
+  subgraph cluster_7 {
+    label = "Vuoto";
+    "Cho'Gath";
+    Kassadin;
+    "Kha'Zix";
+    "Kog'Maw";
+    Malzahar;
+    "Rek'Sai";
+    "Vel'Koz";
+  }
+  subgraph cluster_8 {
+    label = "Monte Targon";
+    Diana;
+    Leona;
+    Pantheon;
+  }
+  subgraph cluster_9 {
+    label = "Isole Ombra";
+    Elise;
+    Evelynn;
+    Hecarim;
+    Kalista;
+    Karthus;
+    Mordekaiser;
+    Thresh;
+    Yorick;
+  }
+  subgraph cluster_10 {
+    label = "Demacia";
+    Fiora;
+    Galio;
+    Garen;
+    "Jarvan IV";
+    Kayle;
+    Lucian;
+    Lux;
+    Poppy;
+    Quinn;
+    Shyvana;
+    Sona;
+    Taric;
+    Vayne;
+    "Xin Zhao";
+  }
+  subgraph cluster_11 {
+    label = "Bilgewater";
+    Fizz;
+    Gangplank;
+    Graves;
+    "Miss Fortune";
+    Nautilus;
+    "Twisted Fate";
+  }
 
-  edge [color = green];
-  Ahri -> Wukong
-  Akali -> Shen
-  Akali -> Kennen
-  Alistar -> "Xin Zhao"
-  Amumu -> Annie
-  Anivia -> Ashe
-  Anivia -> Nunu
-  Annie -> Amumu
-  Ashe -> Tryndamere
-  Ashe -> Anivia
-  Ashe -> Nunu
-  Azir -> Nasus
-  Azir -> Sivir
-  Blitzcrank -> Orianna
-  Blitzcrank -> Rammus
-  Blitzcrank -> Viktor
-  Braum -> Ashe
-  Braum -> Tryndamere
-  Braum -> Gragas
-  Caitlyn -> Jayce
-  Caitlyn -> Ezreal
-  Caitlyn -> Vi
-  Cassiopeia -> Katarina
-  Cassiopeia -> Renekton
-  Cassiopeia -> Xerath
-  "Cho'Gath" -> "Kog'Maw"
-  "Cho'Gath" -> "Kha'Zix"
-  Corki -> Heimerdinger
-  Darius -> Swain
-  Darius -> Draven
-  "Dr. Mundo" -> "Dr. Mundo"
-  Draven -> Darius
-  Draven -> Draven
-  Ekko -> Jinx
-  Ekko -> Vi
-  Elise -> LeBlanc
-  Elise -> Vladimir
-  Ezreal -> Lux
-  Ezreal -> Jayce
-  Ezreal -> Caitlyn
-  Fiddlesticks -> Shaco
-  Fiddlesticks -> Nocturne
-  Fizz -> Nami
-  Galio ->Poppy
-  Galio -> Kayle
-  Galio -> Shyvana
-  Garen -> "Jarvan IV"
-  Garen -> Lux
-  Garen -> "Xin Zhao"
-  Gnar -> Lulu
-  Gnar -> Heimerdinger
-  Gragas -> Jax
-  Gragas -> Tryndamere
-  Gragas -> Braum
-  Graves -> "Twisted Fate"
-  Hecarim -> Mordekaiser
-  Hecarim -> Yorick
-  Hecarim -> Thresh
-  Heimerdinger -> Corki
-  Heimerdinger -> Ziggs
-  Irelia -> Karma
-  Janna -> Lux
-  "Jarvan IV" -> Garen
-  "Jarvan IV" -> Shyvana
-  "Jarvan IV" -> Quinn
-  Jax -> Gragas
-  Jayce -> Ezreal
-  Jayce -> Caitlyn
-  Jayce -> Vi
-  Karma -> Irelia
-  Karma -> "Lee Sin"
-  Karthus -> Mordekaiser
-  Karthus -> Thresh
-  Katarina -> Cassiopeia
-  Katarina -> Sion
-  Katarina -> Talon
-  Kayle -> Galio
-  Kennen -> Akali
-  Kennen -> Shen
-  "Kha'Zix" -> "Cho'Gath"
-  "Kha'Zix" -> "Kog'Maw"
-  "Kog'Maw" -> Malzahar
-  "Kog'Maw" -> "Kha'Zix"
-  "Kog'Maw" -> "Cho'Gath"
-  LeBlanc -> Swain
-  LeBlanc -> Elise
-  "Lee Sin" -> Karma
-  "Lee Sin" -> Udyr
-  Leona -> Pantheon
-  Lissandra -> Trundle
-  Lulu -> Veigar
-  Lulu -> Gnar
-  Lux -> Ezreal
-  Lux -> Garen
-  Lux -> Janna
-  Malphite -> Maokai
-  Malphite -> Skarner
-  Malzahar -> "Kog'Maw"
-  Maokai -> Malphite
-  "Master Yi" -> Wukong
-  Mordekaiser -> Hecarim
-  Mordekaiser -> Karthus
-  Nami -> Fizz
-  Nasus -> Sivir
-  Nidalee -> Udyr
-  Nocturne -> Fiddlesticks
-  Nocturne -> Shaco
-  Nunu -> Ashe
-  Nunu -> Anivia
-  Olaf -> Sejuani
-  Olaf -> Volibear
-  Orianna -> Blitzcrank
-  Pantheon -> Leona
-  Poppy -> Galio
-  Quinn -> "Jarvan IV"
-  Rammus -> Blitzcrank
-  Renekton -> Xerath
-  Renekton -> Cassiopeia
-  Rumble -> Tristana
-  Rumble -> Ziggs
-  Sejuani -> Udyr
-  Sejuani -> Olaf
-  Sejuani -> Volibear
-  Shaco -> Fiddlesticks
-  Shaco -> Nocturne
-  Shen -> Kennen
-  Shen -> Akali
-  Shyvana -> "Jarvan IV"
-  Shyvana -> Galio
-  Singed -> Warwick
-  Singed -> Viktor
-  Sion -> Swain
-  Sivir -> Nasus
-  Skarner -> Taric
-  Skarner -> Malphite
-  Sona -> Taric
-  Sona -> "Xin Zhao"
-  Swain -> LeBlanc
-  Swain -> Darius
-  Syndra -> Zed
-  "Tahm Kench" -> Aatrox
-  Talon -> Katarina
-  Taric -> Skarner
-  Taric -> Sona
-  Teemo -> Tristana
-  Thresh -> Mordekaiser
-  Thresh -> Hecarim
-  Thresh -> Karthus
-  Tristana -> Teemo
-  Tristana -> Rumble
-  Trundle -> Lissandra
-  Tryndamere -> Ashe
-  Tryndamere -> Gragas
-  Tryndamere -> Braum
-  "Twisted Fate" -> Graves
-  Twitch -> Zac
-  Udyr -> Nidalee
-  Udyr -> "Lee Sin"
-  Udyr -> Sejuani
-  Urgot -> Sion
-  Urgot -> Viktor
-  Veigar -> Lulu
-  "Vel'Koz" -> "Kha'Zix"
-  "Vel'Koz" -> "Cho'Gath"
-  "Vel'Koz" -> "Kog'Maw"
-  Vi -> Caitlyn
-  Vi -> Jayce
-  Viktor -> Blitzcrank
-  Viktor -> Urgot
-  Vladimir -> Swain
-  Vladimir -> Elise
-  Volibear -> Sejuani
-  Volibear -> Olaf
-  Warwick -> Singed
-  Wukong -> "Master Yi"
-  Wukong -> Ahri
-  Xerath -> Renekton
-  Xerath -> Cassiopeia
-  "Xin Zhao" -> Garen
-  "Xin Zhao" -> Sona
-  "Xin Zhao" -> Alistar
-  Yorick -> Hecarim
-  Zac -> Twitch
-  Zed -> Syndra
-  Ziggs -> Heimerdinger
-  Ziggs -> Rumble
+    edge [color = red];
+    Aatrox -> Tryndamere;
+    Akali -> Zed
+    Anivia -> Brand
+    Anivia -> Lissandra
+    Ashe -> Sejuani
+    Azir -> Xerath
+    Azir -> Renekton
+    Azir -> Cassiopeia
+    Brand -> Ryze
+    Brand -> Anivia
+    Brand -> Lissandra
+    Braum -> Lissandra
+    Caitlyn -> Jinx
+    Cassiopeia -> Nasus
+    Cassiopeia -> Sivir
+    Darius -> Katarina
+    Darius -> Draven
+    Darius -> Vladimir
+    Diana -> Leona
+    Draven -> Darius
+    Ekko -> Jinx
+    Ekko -> Caitlyn
+    Ekko -> Viktor
+    Ekko -> Jayce
+    Evelynn -> "Twisted Fate"
+    Fiora -> Jax
+    Fiora -> Lux
+    Fizz -> Nautilus
+    Gangplank -> "Miss Fortune"
+    Gangplank -> Swain
+    Gangplank ->Zed
+    Garen -> Katarina
+    Garen -> Swain
+    Garen -> Urgot
+    Heimerdinger -> Rumble
+    Irelia -> Singed
+    Irelia -> Syndra
+    "Jarvan IV" -> Swain
+    "Jarvan IV" -> Urgot
+    Jax -> Fiora
+    Jayce -> Viktor
+    Jinx -> Caitlyn
+    Jinx -> Vi
+    Kalista -> Cassiopeia
+    Kalista -> LeBlanc
+    Kalista -> Lissandra
+    Kalista -> Hecarim
+    Kalista -> Zed
+    Karma -> Syndra
+    Karthus -> Soraka
+    Kassadin -> Malzahar
+    Katarina -> Garen
+    Katarina -> Swain
+    Kayle -> Morgana
+    Kennen -> Zed
+    "Kha'Zix" -> Rengar
+    Leona -> Diana
+    Lissandra -> Brand
+    Lissandra -> Anivia
+    Lissandra -> Udyr
+    Lucian -> Thresh
+    Lux -> Fiora
+    Malzahar -> Kassadin
+    Maokai -> Zyra
+    "Master Yi" -> Singed
+    "Miss Fortune" -> Gangplank
+    Morgana -> Kayle
+    Nami -> Nautilus
+    Nasus -> Xerath
+    Nasus -> Renekton
+    Nasus -> Cassiopeia
+    Nautilus -> Fizz
+    Nautilus -> Nami
+    Nidalee -> Rengar
+    Orianna -> Viktor
+    Quinn -> Talon
+    Rammus -> Twitch
+    Renekton -> Nasus
+    Rengar -> "Kha'Zix"
+    Rengar -> Nidalee
+    Riven -> Singed
+    Riven -> Varus
+    Riven -> Yasuo
+    Rumble -> Heimerdinger
+    Rumble -> Teemo
+    Ryze -> Brand
+    Sejuani -> Ashe
+    Sejuani -> Tryndamere
+    Shen -> Zed
+    Singed -> Irelia
+    Singed -> Riven
+    Singed -> "Master Yi"
+    Sion -> "Jarvan IV"
+    Sion -> Galio
+    Sion -> Swain
+    Sivir -> Cassiopeia
+    Soraka -> Warwick
+    Soraka -> Karthus
+    Swain -> "Jarvan IV"
+    Swain -> Garen
+    Syndra -> Irelia
+    Syndra -> Karma
+    "Tahm Kench" -> Corki
+    "Tahm Kench" -> Gnar
+    "Tahm Kench" -> Heimerdinger
+    "Tahm Kench" -> Lulu
+    "Tahm Kench" -> Kennen
+    "Tahm Kench" -> Poppy
+    "Tahm Kench" -> Rumble
+    "Tahm Kench" -> Teemo
+    "Tahm Kench" -> Tristana
+    "Tahm Kench" -> Ziggs
+    "Tahm Kench" -> Fizz
+    "Tahm Kench" -> Quinn
+    Teemo -> Veigar
+    Teemo -> Rumble
+    Thresh -> Lucian
+    Trundle -> Ashe
+    Trundle -> Sejuani
+    Tryndamere -> Sejuani
+    Tryndamere -> Aatrox
+    "Twisted Fate" -> Evelynn
+    Twitch -> Rammus
+    Udyr -> Lissandra
+    Urgot -> "Jarvan IV"
+    Urgot -> Garen
+    Varus -> Riven
+    Vayne -> Vladimir
+    Vayne -> Warwick
+    Veigar -> Teemo
+    "Vel'Koz" -> Zilean
+    Vi -> Jinx
+    Viktor -> Jayce
+    Viktor -> Orianna
+    Vladimir -> Darius
+    Vladimir -> Vayne
+    Volibear -> Zilean
+    Warwick -> Soraka
+    Warwick -> Vayne
+    Xerath -> Nasus
+    Yasuo -> Riven
+    Zed -> Shen
+    Zed -> Akali
+    Zed -> Kennen
+    Zilean -> Volibear
+    Zyra -> Maokai
+
+    edge [color = green];
+    Ahri -> Wukong
+    Akali -> Shen
+    Akali -> Kennen
+    Alistar -> "Xin Zhao"
+    Amumu -> Annie
+    Anivia -> Ashe
+    Anivia -> Nunu
+    Annie -> Amumu
+    Ashe -> Tryndamere
+    Ashe -> Anivia
+    Ashe -> Nunu
+    Azir -> Nasus
+    Azir -> Sivir
+    Blitzcrank -> Orianna
+    Blitzcrank -> Rammus
+    Blitzcrank -> Viktor
+    Braum -> Ashe
+    Braum -> Tryndamere
+    Braum -> Gragas
+    Caitlyn -> Jayce
+    Caitlyn -> Ezreal
+    Caitlyn -> Vi
+    Cassiopeia -> Katarina
+    Cassiopeia -> Renekton
+    Cassiopeia -> Xerath
+    "Cho'Gath" -> "Kog'Maw"
+    "Cho'Gath" -> "Kha'Zix"
+    Corki -> Heimerdinger
+    Darius -> Swain
+    Darius -> Draven
+    "Dr. Mundo" -> "Dr. Mundo"
+    Draven -> Darius
+    Draven -> Draven
+    Ekko -> Jinx
+    Ekko -> Vi
+    Elise -> LeBlanc
+    Elise -> Vladimir
+    Ezreal -> Lux
+    Ezreal -> Jayce
+    Ezreal -> Caitlyn
+    Fiddlesticks -> Shaco
+    Fiddlesticks -> Nocturne
+    Fizz -> Nami
+    Galio ->Poppy
+    Galio -> Kayle
+    Galio -> Shyvana
+    Garen -> "Jarvan IV"
+    Garen -> Lux
+    Garen -> "Xin Zhao"
+    Gnar -> Lulu
+    Gnar -> Heimerdinger
+    Gragas -> Jax
+    Gragas -> Tryndamere
+    Gragas -> Braum
+    Graves -> "Twisted Fate"
+    Hecarim -> Mordekaiser
+    Hecarim -> Yorick
+    Hecarim -> Thresh
+    Heimerdinger -> Corki
+    Heimerdinger -> Ziggs
+    Irelia -> Karma
+    Janna -> Lux
+    "Jarvan IV" -> Garen
+    "Jarvan IV" -> Shyvana
+    "Jarvan IV" -> Quinn
+    Jax -> Gragas
+    Jayce -> Ezreal
+    Jayce -> Caitlyn
+    Jayce -> Vi
+    Karma -> Irelia
+    Karma -> "Lee Sin"
+    Karthus -> Mordekaiser
+    Karthus -> Thresh
+    Katarina -> Cassiopeia
+    Katarina -> Sion
+    Katarina -> Talon
+    Kayle -> Galio
+    Kennen -> Akali
+    Kennen -> Shen
+    "Kha'Zix" -> "Cho'Gath"
+    "Kha'Zix" -> "Kog'Maw"
+    "Kog'Maw" -> Malzahar
+    "Kog'Maw" -> "Kha'Zix"
+    "Kog'Maw" -> "Cho'Gath"
+    LeBlanc -> Swain
+    LeBlanc -> Elise
+    "Lee Sin" -> Karma
+    "Lee Sin" -> Udyr
+    Leona -> Pantheon
+    Lissandra -> Trundle
+    Lulu -> Veigar
+    Lulu -> Gnar
+    Lux -> Ezreal
+    Lux -> Garen
+    Lux -> Janna
+    Malphite -> Maokai
+    Malphite -> Skarner
+    Malzahar -> "Kog'Maw"
+    Maokai -> Malphite
+    "Master Yi" -> Wukong
+    Mordekaiser -> Hecarim
+    Mordekaiser -> Karthus
+    Nami -> Fizz
+    Nasus -> Sivir
+    Nidalee -> Udyr
+    Nocturne -> Fiddlesticks
+    Nocturne -> Shaco
+    Nunu -> Ashe
+    Nunu -> Anivia
+    Olaf -> Sejuani
+    Olaf -> Volibear
+    Orianna -> Blitzcrank
+    Pantheon -> Leona
+    Poppy -> Galio
+    Quinn -> "Jarvan IV"
+    Rammus -> Blitzcrank
+    Renekton -> Xerath
+    Renekton -> Cassiopeia
+    Rumble -> Tristana
+    Rumble -> Ziggs
+    Sejuani -> Udyr
+    Sejuani -> Olaf
+    Sejuani -> Volibear
+    Shaco -> Fiddlesticks
+    Shaco -> Nocturne
+    Shen -> Kennen
+    Shen -> Akali
+    Shyvana -> "Jarvan IV"
+    Shyvana -> Galio
+    Singed -> Warwick
+    Singed -> Viktor
+    Sion -> Swain
+    Sivir -> Nasus
+    Skarner -> Taric
+    Skarner -> Malphite
+    Sona -> Taric
+    Sona -> "Xin Zhao"
+    Swain -> LeBlanc
+    Swain -> Darius
+    Syndra -> Zed
+    "Tahm Kench" -> Aatrox
+    Talon -> Katarina
+    Taric -> Skarner
+    Taric -> Sona
+    Teemo -> Tristana
+    Thresh -> Mordekaiser
+    Thresh -> Hecarim
+    Thresh -> Karthus
+    Tristana -> Teemo
+    Tristana -> Rumble
+    Trundle -> Lissandra
+    Tryndamere -> Ashe
+    Tryndamere -> Gragas
+    Tryndamere -> Braum
+    "Twisted Fate" -> Graves
+    Twitch -> Zac
+    Udyr -> Nidalee
+    Udyr -> "Lee Sin"
+    Udyr -> Sejuani
+    Urgot -> Sion
+    Urgot -> Viktor
+    Veigar -> Lulu
+    "Vel'Koz" -> "Kha'Zix"
+    "Vel'Koz" -> "Cho'Gath"
+    "Vel'Koz" -> "Kog'Maw"
+    Vi -> Caitlyn
+    Vi -> Jayce
+    Viktor -> Blitzcrank
+    Viktor -> Urgot
+    Vladimir -> Swain
+    Vladimir -> Elise
+    Volibear -> Sejuani
+    Volibear -> Olaf
+    Warwick -> Singed
+    Wukong -> "Master Yi"
+    Wukong -> Ahri
+    Xerath -> Renekton
+    Xerath -> Cassiopeia
+    "Xin Zhao" -> Garen
+    "Xin Zhao" -> Sona
+    "Xin Zhao" -> Alistar
+    Yorick -> Hecarim
+    Zac -> Twitch
+    Zed -> Syndra
+    Ziggs -> Heimerdinger
+    Ziggs -> Rumble
 }
