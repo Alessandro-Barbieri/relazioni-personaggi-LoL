@@ -56,6 +56,11 @@ digraph G {
   Kayle -> Morgana
   Kennen -> Zed
   "Kha'Zix" -> Rengar
+  Kindred -> Hecarim
+  Kindred -> Mordekaiser
+  Kindred -> Yorick
+  Kindred -> Thresh
+  Kindred -> Karthus
   Leona -> Diana
   Lissandra -> Brand
   Lissandra -> Anivia
@@ -229,6 +234,7 @@ digraph G {
   Kennen -> Shen
   "Kha'Zix" -> "Cho'Gath"
   "Kha'Zix" -> "Kog'Maw"
+  Kindred -> Kindred
   "Kog'Maw" -> Malzahar
   "Kog'Maw" -> "Kha'Zix"
   "Kog'Maw" -> "Cho'Gath"
