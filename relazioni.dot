@@ -35,6 +35,7 @@ digraph G {
   Garen -> Swain
   Garen -> Urgot
   Heimerdinger -> Rumble
+  Illaoi -> Hecarim
   Illaoi -> Karthus
   Illaoi -> Mordekaiser
   Illaoi -> Nautilus
@@ -217,6 +218,10 @@ digraph G {
   Hecarim -> Yorick
   Heimerdinger -> Corki
   Heimerdinger -> Ziggs
+  Illaoi -> Gangplank
+  Illaoi -> Graves
+  Illaoi -> "Miss Fortune"
+  Illaoi -> "Twisted Fate"
   Irelia -> Karma
   Janna -> Lux
   "Jarvan IV" -> Garen
