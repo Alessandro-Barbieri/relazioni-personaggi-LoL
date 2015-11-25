@@ -35,6 +35,11 @@ digraph G {
   Garen -> Swain
   Garen -> Urgot
   Heimerdinger -> Rumble
+  Illaoi -> Karthus
+  Illaoi -> Mordekaiser
+  Illaoi -> Nautilus
+  Illaoi -> Thresh
+  Illaoi -> Yorick
   Irelia -> Singed
   Irelia -> Syndra
   "Jarvan IV" -> Swain
