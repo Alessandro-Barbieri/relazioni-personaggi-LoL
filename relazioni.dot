@@ -146,6 +146,7 @@ digraph G {
     Fizz;
     Gangplank;
     Graves;
+    Illaoi;
     "Miss Fortune";
     Nautilus;
     "Twisted Fate";
@@ -187,6 +188,12 @@ edge [color = red];
   Garen -> Swain
   Garen -> Urgot
   Heimerdinger -> Rumble
+  Illaoi -> Hecarim
+  Illaoi -> Karthus
+  Illaoi -> Mordekaiser
+  Illaoi -> Nautilus
+  Illaoi -> Thresh
+  Illaoi -> Yorick
   Irelia -> Singed
   Irelia -> Syndra
   "Jarvan IV" -> Swain
@@ -364,6 +371,10 @@ edge [color = red];
   Hecarim -> Yorick
   Heimerdinger -> Corki
   Heimerdinger -> Ziggs
+  Illaoi -> Gangplank
+  Illaoi -> Graves
+  Illaoi -> "Miss Fortune"
+  Illaoi -> "Twisted Fate"
   Irelia -> Karma
   Janna -> Lux
   "Jarvan IV" -> Garen
