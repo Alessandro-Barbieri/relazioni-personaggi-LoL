@@ -7,6 +7,7 @@ digraph G {
     "Master Yi";
     Irelia;
     Jax;
+    Jhin;
     Karma;
     Kennen;
     "Lee Sin";
@@ -200,6 +201,8 @@ edge [color = red];
   "Jarvan IV" -> Urgot
   Jax -> Fiora
   Jayce -> Viktor
+  Jhin -> Shen
+  Jhin -> Zed
   Jinx -> Caitlyn
   Jinx -> Vi
   Kalista -> Cassiopeia
