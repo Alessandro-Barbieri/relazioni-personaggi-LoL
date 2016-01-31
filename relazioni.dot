@@ -47,6 +47,8 @@ digraph G {
   "Jarvan IV" -> Urgot
   Jax -> Fiora
   Jayce -> Viktor
+  Jhin -> Shen
+  Jhin -> Zed
   Jinx -> Caitlyn
   Jinx -> Vi
   Kalista -> Cassiopeia
