@@ -59,6 +59,7 @@ digraph G {
     Rammus;
     Renekton;
     Sivir;
+    Taliyah;
     Xerath;
   }
   subgraph cluster_4 {
@@ -280,6 +281,7 @@ edge [color = red];
   "Tahm Kench" -> Teemo
   "Tahm Kench" -> Tristana
   "Tahm Kench" -> Ziggs
+  Taliyah -> Azir
   Teemo -> Rumble
   Teemo -> Veigar
   Thresh -> Lucian
@@ -460,6 +462,7 @@ edge [color = red];
   Swain -> LeBlanc
   Syndra -> Zed
   "Tahm Kench" -> Aatrox
+  Taliyah -> Yasuo
   Talon -> Katarina
   Taric -> Skarner
   Taric -> Sona
