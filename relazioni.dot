@@ -126,6 +126,7 @@ digraph G {
   "Tahm Kench" -> Teemo
   "Tahm Kench" -> Tristana
   "Tahm Kench" -> Ziggs
+  Taliyah -> Azir
   Teemo -> Rumble
   Teemo -> Veigar
   Thresh -> Lucian
@@ -306,6 +307,7 @@ digraph G {
   Swain -> LeBlanc
   Syndra -> Zed
   "Tahm Kench" -> Aatrox
+  Taliyah -> Yasuo
   Talon -> Katarina
   Taric -> Skarner
   Taric -> Sona
