@@ -4,7 +4,9 @@ digraph G {
   Akali -> Zed
   Anivia -> Brand
   Anivia -> Lissandra
+  Ashe -> Lissandra
   Ashe -> Sejuani
+  "Aurelion Sol" -> Pantheon
   Azir -> Cassiopeia
   Azir -> Renekton
   Azir -> Xerath
@@ -12,10 +14,14 @@ digraph G {
   Brand -> Lissandra
   Brand -> Ryze
   Braum -> Lissandra
+  Caitlyn -> Ekko
   Caitlyn -> Jinx
   Cassiopeia -> Nasus
   Cassiopeia -> Sivir
+  "Cho'Gath" -> Kassadin
+  Corki -> "Tahm Kench"
   Darius -> Draven
+  Darius -> Garen
   Darius -> Katarina
   Darius -> Vladimir
   Diana -> Leona
@@ -28,13 +34,21 @@ digraph G {
   Fiora -> Jax
   Fiora -> Lux
   Fizz -> Nautilus
+  Fizz -> "Tahm Kench"
+  Galio -> Sion
+  Gangplank -> Graves
   Gangplank -> "Miss Fortune"
   Gangplank -> Swain
+  Gangplank -> "Twisted Fate"
   Gangplank -> Zed
+  Garen -> Darius
   Garen -> Katarina
   Garen -> Swain
   Garen -> Urgot
+  Hecarim -> Kalista
   Heimerdinger -> Rumble
+  Heimerdinger -> "Tahm Kench"
+  Heimerdinger -> Viktor
   Illaoi -> Hecarim
   Illaoi -> Karthus
   Illaoi -> Mordekaiser
@@ -43,13 +57,18 @@ digraph G {
   Illaoi -> Yorick
   Irelia -> Singed
   Irelia -> Syndra
+  "Jarvan IV" -> Sion
   "Jarvan IV" -> Swain
   "Jarvan IV" -> Urgot
   Jax -> Fiora
+  Jayce -> Jinx
   Jayce -> Viktor
+  Jhin -> "Master Yi"
   Jhin -> Shen
+  Jhin -> Sona
   Jhin -> Zed
   Jinx -> Caitlyn
+  Jinx -> Jayce
   Jinx -> Vi
   Kalista -> Cassiopeia
   Kalista -> Hecarim
@@ -62,6 +81,7 @@ digraph G {
   Katarina -> Garen
   Katarina -> Swain
   Kayle -> Morgana
+  Kennen -> "Tahm Kench"
   Kennen -> Zed
   "Kha'Zix" -> Rengar
   Kindred -> Hecarim
@@ -71,14 +91,20 @@ digraph G {
   Kindred -> Yorick
   Leona -> Diana
   Lissandra -> Anivia
+  Lissandra -> Ashe
   Lissandra -> Brand
+  Lissandra -> Braum
+  Lissandra -> Sejuani
   Lissandra -> Udyr
+  Lulu -> "Tahm Kench"
   Lucian -> Thresh
   Lux -> Fiora
   Malzahar -> Kassadin
   Maokai -> Zyra
   "Master Yi" -> Singed
   "Miss Fortune" -> Gangplank
+  Mordekaiser -> Illaoi
+  Mordekaiser -> Kindred
   Morgana -> Kayle
   Nami -> Nautilus
   Nasus -> Cassiopeia
@@ -87,20 +113,27 @@ digraph G {
   Nautilus -> Fizz
   Nautilus -> Nami
   Nidalee -> Rengar
+  Nunu -> Lissandra
   Orianna -> Viktor
+  Poppy -> "Tahm Kench"
   Quinn -> Talon
   Rammus -> Twitch
+  Renekton -> Azir
   Renekton -> Nasus
+  Renekton -> Sivir
   Rengar -> "Kha'Zix"
   Rengar -> Nidalee
   Riven -> Singed
   Riven -> Varus
   Riven -> Yasuo
   Rumble -> Heimerdinger
+  Rumble -> "Tahm Kench"
   Rumble -> Teemo
   Ryze -> Brand
   Sejuani -> Ashe
+  Sejuani -> Lissandra
   Sejuani -> Tryndamere
+  Shen -> Jhin
   Shen -> Zed
   Singed -> Irelia
   Singed -> "Master Yi"
@@ -109,8 +142,10 @@ digraph G {
   Sion -> "Jarvan IV"
   Sion -> Swain
   Sivir -> Cassiopeia
+  Sivir -> Xerath
   Soraka -> Karthus
   Soraka -> Warwick
+  Swain -> Gangplank
   Swain -> Garen
   Swain -> "Jarvan IV"
   Syndra -> Irelia
@@ -127,12 +162,17 @@ digraph G {
   "Tahm Kench" -> Tristana
   "Tahm Kench" -> Ziggs
   Taliyah -> Azir
+  Taliyah -> Xerath
+  Talon -> Quinn
   Teemo -> Rumble
+  Teemo -> "Tahm Kench"
   Teemo -> Veigar
   Thresh -> Lucian
+  Tristana -> "Tahm Kench"
   Trundle -> Ashe
   Trundle -> Sejuani
   Tryndamere -> Aatrox
+  Tryndamere -> Lissandra
   Tryndamere -> Sejuani
   "Twisted Fate" -> Evelynn
   Twitch -> Rammus
@@ -145,6 +185,7 @@ digraph G {
   Veigar -> Teemo
   "Vel'Koz" -> Zilean
   Vi -> Jinx
+  Viktor -> Ekko
   Viktor -> Jayce
   Viktor -> Orianna
   Vladimir -> Darius
@@ -152,24 +193,36 @@ digraph G {
   Volibear -> Zilean
   Warwick -> Soraka
   Warwick -> Vayne
+  Xerath -> Azir
   Xerath -> Nasus
   Yasuo -> Riven
+  Yorick -> Illaoi
   Zed -> Akali
+  Zed -> Gangplank
+  Zed -> Jhin
   Zed -> Kennen
   Zed -> Shen
+  Ziggs -> "Tahm Kench"
+  Zilean -> "Vel'Koz"
   Zilean -> Volibear
   Zyra -> Maokai
 
   edge [color = green];
+  Aatrox -> "Tahm Kench"
   Ahri -> Wukong
   Akali -> Kennen
   Akali -> Shen
   Alistar -> "Xin Zhao"
   Amumu -> Annie
   Anivia -> Ashe
+  Anivia -> Braum 
+  Anivia -> Gragas
   Anivia -> Nunu
+  Anivia -> Tryndamere
   Annie -> Amumu
   Ashe -> Anivia
+  Ashe -> Braum
+  Ashe -> Gragas
   Ashe -> Nunu
   Ashe -> Tryndamere
   Azir -> Nasus
@@ -188,6 +241,8 @@ digraph G {
   Cassiopeia -> Xerath
   "Cho'Gath" -> "Kha'Zix"
   "Cho'Gath" -> "Kog'Maw"
+  "Cho'Gath" -> "Malzahar"
+  "Cho'Gath" -> "Vel'Koz" 
   Corki -> Heimerdinger
   Darius -> Draven
   Darius -> Swain
@@ -201,39 +256,49 @@ digraph G {
   Ezreal -> Caitlyn
   Ezreal -> Jayce
   Ezreal -> Lux
+  Ezreal -> Vi
   Fiddlesticks -> Shaco
   Fiddlesticks -> Nocturne
   Fizz -> Nami
   Galio -> Kayle
   Galio -> Poppy
   Galio -> Shyvana
+  Gangplank -> Illaoi
   Garen -> "Jarvan IV"
   Garen -> Lux
+  Garen -> Taric
   Garen -> "Xin Zhao"
   Gnar -> Heimerdinger
   Gnar -> Lulu
   Gragas -> Braum
   Gragas -> Jax
   Gragas -> Tryndamere
+  Graves -> Illaoi
   Graves -> "Twisted Fate"
   Hecarim -> Mordekaiser
   Hecarim -> Thresh
   Hecarim -> Yorick
   Heimerdinger -> Corki
+  Heimerdinger -> Gnar
+  Heimerdinger -> Jayce
   Heimerdinger -> Ziggs
   Illaoi -> Gangplank
   Illaoi -> Graves
   Illaoi -> "Miss Fortune"
   Illaoi -> "Twisted Fate"
   Irelia -> Karma
+  Irelia -> Soraka
   Janna -> Lux
   "Jarvan IV" -> Garen
+  "Jarvan IV" -> Lux
   "Jarvan IV" -> Quinn
   "Jarvan IV" -> Shyvana
+  "Jarvan IV" -> "Xin Zhao"
   Jax -> Gragas
   Jayce -> Caitlyn
   Jayce -> Ezreal
   Jayce -> Vi
+  Jinx -> Ekko
   Karma -> Irelia
   Karma -> "Lee Sin"
   Karthus -> Mordekaiser
@@ -246,13 +311,17 @@ digraph G {
   Kennen -> Shen
   "Kha'Zix" -> "Cho'Gath"
   "Kha'Zix" -> "Kog'Maw"
+  "Kha'Zix" -> Malzahar
   Kindred -> Kindred
   "Kog'Maw" -> "Cho'Gath"
   "Kog'Maw" -> "Kha'Zix"
   "Kog'Maw" -> Malzahar
   LeBlanc -> Elise
+  LeBlanc -> Sion
   LeBlanc -> Swain
+  LeBlanc -> Vladimir
   "Lee Sin" -> Karma
+  "Lee Sin" -> Sona
   "Lee Sin" -> Udyr
   Leona -> Pantheon
   Lissandra -> Trundle
@@ -266,10 +335,14 @@ digraph G {
   Malphite -> Skarner
   Maokai -> Malphite
   "Master Yi" -> Wukong
+  "Miss Fortune" -> Illaoi
   Mordekaiser -> Hecarim
   Mordekaiser -> Karthus
+  Mordekaiser -> Thresh
   Nami -> Fizz
+  Nasus -> Azir
   Nasus -> Sivir
+  Nasus -> Taliyah
   Nidalee -> Udyr
   Nocturne -> Fiddlesticks
   Nocturne -> Shaco
@@ -278,6 +351,7 @@ digraph G {
   Olaf -> Sejuani
   Olaf -> Volibear
   Orianna -> Blitzcrank
+  Pantheon -> "Aurelion Sol"
   Pantheon -> Leona
   Poppy -> Galio
   Quinn -> "Jarvan IV"
@@ -298,17 +372,23 @@ digraph G {
   Singed -> Viktor
   Singed -> Warwick
   Sion -> Swain
+  Sivir -> Azir
   Sivir -> Nasus
+  Sivir -> Taliyah
   Skarner -> Malphite
   Skarner -> Taric
   Sona -> Taric
   Sona -> "Xin Zhao"
   Swain -> Darius
   Swain -> LeBlanc
+  Swain -> Sion
   Syndra -> Zed
   "Tahm Kench" -> Aatrox
+  Taliyah -> Sivir
+  Taliyah -> Nasus
   Taliyah -> Yasuo
   Talon -> Katarina
+  Taric -> Garen
   Taric -> Skarner
   Taric -> Sona
   Teemo -> Tristana
@@ -322,6 +402,7 @@ digraph G {
   Tryndamere -> Braum
   Tryndamere -> Gragas
   "Twisted Fate" -> Graves
+  "Twisted Fate" -> Illaoi
   Twitch -> Zac
   Udyr -> "Lee Sin"
   Udyr -> Nidalee
@@ -333,10 +414,13 @@ digraph G {
   "Vel'Koz" -> "Kha'Zix"
   "Vel'Koz" -> "Kog'Maw"
   Vi -> Caitlyn
+  Vi -> Ezreal
   Vi -> Jayce
   Viktor -> Blitzcrank
   Viktor -> Urgot
   Vladimir -> Elise
+  Vladimir -> LeBlanc
+  Vladimir -> Sion
   Vladimir -> Swain
   Volibear -> Olaf
   Volibear -> Sejuani
@@ -348,9 +432,11 @@ digraph G {
   "Xin Zhao" -> Alistar
   "Xin Zhao" -> Garen
   "Xin Zhao" -> Sona
+  Yasuo -> Taliyah
   Yorick -> Hecarim
   Zac -> Twitch
   Zed -> Syndra
   Ziggs -> Heimerdinger
   Ziggs -> Rumble
+  Zilean -> Ekko
 }
