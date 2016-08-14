@@ -69,6 +69,138 @@ digraph G {
   Kindred -> Mordekaiser
   Kindred -> Thresh
   Kindred -> Yorick
+  Kled ->  Aatrox
+  Kled ->  Ahri
+  Kled ->  Akali
+  Kled ->  Alistar
+  Kled ->  Amumu
+  Kled ->  Anivia
+  Kled ->  Annie
+  Kled ->  Ashe
+  Kled ->  "Aurelion Sol"
+  Kled ->  Azir
+  Kled ->  Bard
+  Kled ->  Blitzcrank
+  Kled ->  Brand
+  Kled ->  Braum
+  Kled ->  Caitlyn
+  Kled ->  Cassiopeia
+  Kled ->  "Cho'Gath"
+  Kled ->  Corki
+  Kled ->  Darius
+  Kled ->  Diana
+  Kled ->  Draven
+  Kled ->  "Dr. Mundo"
+  Kled ->  Ekko
+  Kled ->  Elise
+  Kled ->  Evelynn
+  Kled ->  Ezreal
+  Kled ->  Fiddlesticks
+  Kled ->  Fiora
+  Kled ->  Fizz
+  Kled ->  Galio
+  Kled ->  Gangplank
+  Kled ->  Garen
+  Kled ->  Gnar
+  Kled ->  Gragas
+  Kled ->  Graves
+  Kled ->  Hecarim
+  Kled ->  Heimerdinger
+  Kled ->  Illaoi
+  Kled ->  Irelia
+  Kled ->  Janna
+  Kled ->  "Jarvan IV"
+  Kled ->  Jax
+  Kled ->  Jayce
+  Kled ->  Jhin
+  Kled ->  Jinx
+  Kled ->  Kalista
+  Kled ->  Karma
+  Kled ->  Karthus
+  Kled ->  Kassadin
+  Kled ->  Katarina
+  Kled ->  Kayle
+  Kled ->  Kennen
+  Kled ->  "Kha'Zix"
+  Kled ->  Kindred
+  Kled ->  Kled
+  Kled ->  "Kog'Maw"
+  Kled ->  LeBlanc
+  Kled ->  "Lee Sin"
+  Kled ->  Leona
+  Kled ->  Lissandra
+  Kled ->  Lucian
+  Kled ->  Lulu
+  Kled ->  Lux
+  Kled ->  Malphite
+  Kled ->  Malzahar
+  Kled ->  Maokai
+  Kled ->  "Master Yi"
+  Kled ->  "Miss Fortune"
+  Kled ->  Mordekaiser
+  Kled ->  Morgana
+  Kled ->  Nami
+  Kled ->  Nasus
+  Kled ->  Nautilus
+  Kled ->  Nidalee
+  Kled ->  Nocturne
+  Kled ->  Nunu
+  Kled ->  Olaf
+  Kled ->  Orianna
+  Kled ->  Pantheon
+  Kled ->  Poppy
+  Kled ->  Quinn
+  Kled ->  Rammus
+  Kled ->  "Rek'Sai"
+  Kled ->  Renekton
+  Kled ->  Rengar
+  Kled ->  Riven
+  Kled ->  Rumble
+  Kled ->  Ryze
+  Kled ->  Sejuani
+  Kled ->  Shaco
+  Kled ->  Shen
+  Kled ->  Shyvana
+  Kled ->  Singed
+  Kled ->  Sion
+  Kled ->  Sivir
+  Kled ->  Skarner
+  Kled ->  Sona
+  Kled ->  Soraka
+  Kled ->  Swain
+  Kled ->  Syndra
+  Kled ->  "Tahm Kench"
+  Kled ->  Taliyah
+  Kled ->  Talon
+  Kled ->  Taric
+  Kled ->  Teemo
+  Kled ->  Thresh
+  Kled ->  Tristana
+  Kled ->  Trundle
+  Kled ->  Tryndamere
+  Kled ->  "Twisted Fate"
+  Kled ->  Twitch
+  Kled ->  Udyr
+  Kled ->  Urgot
+  Kled ->  Varus
+  Kled ->  Vayne
+  Kled ->  Veigar
+  Kled ->  "Vel'Koz"
+  Kled ->  Vi
+  Kled ->  Viktor
+  Kled ->  Vladimir
+  Kled ->  Volibear
+  Kled ->  Warwick
+  Kled ->  Wukong
+  Kled ->  Xerath
+  Kled ->  "Xin Zhao"
+  Kled ->  Yasuo
+  Kled ->  Yorick
+  Kled ->  Zac
+  Kled ->  Zed
+  Kled ->  Ziggs
+  Kled ->  Zilean
+  Kled ->  Zyra
   Leona -> Diana
   Lissandra -> Anivia
   Lissandra -> Brand
@@ -247,6 +379,7 @@ digraph G {
   "Kha'Zix" -> "Cho'Gath"
   "Kha'Zix" -> "Kog'Maw"
   Kindred -> Kindred
+  Kled -> Kled
   "Kog'Maw" -> "Cho'Gath"
   "Kog'Maw" -> "Kha'Zix"
   "Kog'Maw" -> Malzahar
