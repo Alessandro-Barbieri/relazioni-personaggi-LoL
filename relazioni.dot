@@ -287,6 +287,10 @@ digraph G {
   Warwick -> Vayne
   Xerath -> Nasus
   Yasuo -> Riven
+  Yorick -> Hecarim
+  Yorick -> Karthus
+  Yorick -> Mordekaiser
+  Yorick -> Thresh
   Zed -> Akali
   Zed -> Kennen
   Zed -> Shen
@@ -485,7 +489,9 @@ digraph G {
   "Xin Zhao" -> Alistar
   "Xin Zhao" -> Garen
   "Xin Zhao" -> Sona
-  Yorick -> Hecarim
+  Yorick -> Kalista
+  Yorick -> Kindred
+  Yorick -> Maokai
   Zac -> Twitch
   Zed -> Syndra
   Ziggs -> Heimerdinger
