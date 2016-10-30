@@ -108,6 +108,7 @@ digraph G {
   Kled ->  Heimerdinger
   Kled ->  Illaoi
   Kled ->  Irelia
+  Kled ->  Ivern
   Kled ->  Janna
   Kled ->  "Jarvan IV"
   Kled ->  Jax
@@ -358,6 +359,9 @@ digraph G {
   Illaoi -> "Miss Fortune"
   Illaoi -> "Twisted Fate"
   Irelia -> Karma
+  Ivern -> Bard
+  Ivern -> Lulu
+  Ivern -> Maokai
   Janna -> Lux
   "Jarvan IV" -> Garen
   "Jarvan IV" -> Quinn
