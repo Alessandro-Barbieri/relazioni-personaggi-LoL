@@ -128,6 +128,7 @@ digraph G {
   Kled ->  Heimerdinger
   Kled ->  Illaoi
   Kled ->  Irelia
+  Kled ->  Ivern
   Kled ->  Janna
   Kled ->  "Jarvan IV"
   Kled ->  Jax
@@ -237,6 +238,7 @@ digraph G {
   "Miss Fortune" -> Gangplank
   Mordekaiser -> Illaoi
   Mordekaiser -> Kindred
+  Mordekaiser -> Yorick
   Morgana -> Kayle
   Nami -> Nautilus
   Nasus -> Cassiopeia
@@ -300,6 +302,7 @@ digraph G {
   Teemo -> "Tahm Kench"
   Teemo -> Veigar
   Thresh -> Lucian
+  Thresh -> Yorick
   Tristana -> "Tahm Kench"
   Trundle -> Ashe
   Trundle -> Sejuani
@@ -328,7 +331,9 @@ digraph G {
   Xerath -> Azir
   Xerath -> Nasus
   Yasuo -> Riven
-  Yorick -> Illaoi
+  Yorick -> Kindred
+  Yorick -> Mordekaiser
+  Yorick -> Thresh
   Zed -> Akali
   Zed -> Gangplank
   Zed -> Jhin
@@ -420,6 +425,9 @@ digraph G {
   Illaoi -> "Twisted Fate"
   Irelia -> Karma
   Irelia -> Soraka
+  Ivern -> Bard
+  Ivern -> Lulu
+  Ivern -> Maokai
   Janna -> Lux
   "Jarvan IV" -> Garen
   "Jarvan IV" -> Lux
@@ -459,6 +467,7 @@ digraph G {
   Leona -> Pantheon
   Lissandra -> Trundle
   Lulu -> Gnar
+  Lulu -> Ivern
   Lulu -> Veigar
   Lux -> Ezreal
   Lux -> Garen
@@ -566,7 +575,6 @@ digraph G {
   "Xin Zhao" -> Garen
   "Xin Zhao" -> Sona
   Yasuo -> Taliyah
-  Yorick -> Hecarim
   Zac -> Twitch
   Zed -> Syndra
   Ziggs -> Heimerdinger
