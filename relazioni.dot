@@ -414,7 +414,6 @@ digraph G {
   Graves -> "Twisted Fate"
   Hecarim -> Mordekaiser
   Hecarim -> Thresh
-  Hecarim -> Yorick
   Heimerdinger -> Corki
   Heimerdinger -> Gnar
   Heimerdinger -> Jayce
