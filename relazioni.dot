@@ -489,6 +489,7 @@ digraph G {
   "Xin Zhao" -> Alistar
   "Xin Zhao" -> Garen
   "Xin Zhao" -> Sona
+  Yasuo -> Taliyah
   Yorick -> Kalista
   Yorick -> Kindred
   Yorick -> Maokai
